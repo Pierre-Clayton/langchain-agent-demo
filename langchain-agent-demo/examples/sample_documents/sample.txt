@@ -1,0 +1,56 @@
+LangChain Framework Overview
+============================
+
+LangChain is an open-source framework designed to simplify the development of applications
+powered by large language models (LLMs). It provides a standardized interface for working
+with various LLM providers, including OpenAI, Anthropic, Cohere, and others.
+
+Key Features:
+
+1. Chains: LangChain allows you to create sequences of operations (chains) that process
+   data through multiple steps. This makes it easy to build complex workflows.
+
+2. Agents: Agents use LLMs to decide which actions to take. They can use external tools
+   and APIs to accomplish tasks.
+
+3. Memory: LangChain provides various memory implementations to maintain context across
+   interactions in conversational applications.
+
+4. Prompts: The framework includes utilities for managing and optimizing prompts, making
+   it easier to get the best results from LLMs.
+
+5. Document Loaders: LangChain supports loading data from various sources including PDFs,
+   websites, databases, and more.
+
+6. Vector Stores: Integration with vector databases like FAISS, Pinecone, and Chroma
+   enables semantic search and retrieval augmented generation (RAG).
+
+LangGraph Extension:
+
+LangGraph extends LangChain with stateful, multi-actor applications. It allows developers
+to define workflows as graphs with nodes and edges, making it easier to build and
+visualize complex AI systems. LangGraph is particularly useful for:
+
+- Multi-agent systems
+- Complex decision trees
+- Cyclic workflows
+- Conditional routing
+
+Use Cases:
+
+- Chatbots and virtual assistants
+- Question-answering systems
+- Document analysis and summarization
+- Code generation and analysis
+- Research and information synthesis
+- Automated customer support
+
+Getting Started:
+
+To start using LangChain, install it via pip:
+pip install langchain langchain-openai
+
+Then configure your API keys and start building!
+
+For more information, visit: https://python.langchain.com/
+
